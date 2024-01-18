@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="TodolistEAR" version="10" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/application_10.xsd">
+    <display-name>TodolistEAR</display-name>
+
+    <!-- TodolistEJB -->
+    <module>
+        <ejb>TodolistEJB.jar</ejb>
+    </module>
+
+    <!-- TodolistWeb -->
+    <module>
+        <web>
+            <web-uri>TodolistWeb.war</web-uri>
+            <context-root>/TodolistWeb</context-root>
+        </web>
+    </module>
+</application>
